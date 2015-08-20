@@ -1,0 +1,47 @@
+<h1 id="profile">Profile</h1>
+      <form action="/profile/edit" method="POST">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+              <label for="email-address" class="col-sm-1 control-label">E-mail Address:</label>
+                <div class="col-sm-4">
+                  <input type="email" name="email" class="form-control" id="email-address" placeholder="enter email address">
+                </div>
+          </div>
+    
+          <div class="form-group">
+                <label for="password" class="col-sm-1 control-label">Password:</label>
+            <div class="col-sm-4">
+                <input type="password" name="psw" class="form-control" id="password" placeholder="enter password">
+            </div>
+          </div>
+
+          <div class="form-group">
+                <label for="firstname" class="col-sm-1 control-label">First Name:</label>
+            <div class="col-sm-4">
+                <input type="text" name="firstname" id="firstname" class="form-control" placeholder="enter first name">
+            </div>
+         </div>
+
+         <div class="form-group">
+                <label for="lastname" class="col-sm-1 control-label">Last Name:</label>
+              <div class="col-sm-4">
+                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="enter last name">
+              </div>
+         </div>
+
+         
+         <div class="form-group">
+              <label for="gender" class="col-sm-1 control-label">Gender:</label>
+              <div class="col-sm-4">
+      
+                  <div>
+                    <label for="gender" class="radio-inline"id="gender">Male</label>
+                    <input type="radio" name="gender" id="gender" class="radio-inline">
+                    <label for="radio" class="radio-inline" id="gender">Female</label>
+                    <input type="radio" name="gender" id="gender" class="radio-inline">
+                  </div>
+              </div>
+        </div>
+            <button type="button" class="btn btn-primary">Save</button>
+
+    </form>

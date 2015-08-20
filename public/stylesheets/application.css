@@ -1,0 +1,49 @@
+h1 {
+    font-family: Arial;
+
+}
+
+p {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#portal {
+    text-align: center;
+}
+#login_form {
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 25px; 
+    width: 250px; 
+    font-family: Arial;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#signup_form {
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 25px; 
+    width: 250px; 
+    font-family: Arial;
+    margin: auto;
+}
+
+
+
+.form-group {
+    padding: 15px; 
+}
+
+.btn-primary {
+    margin-left:  300px;
+    display: inline-block;
+
+}
+
+#profile {
+    padding-left: 280px;
+}
